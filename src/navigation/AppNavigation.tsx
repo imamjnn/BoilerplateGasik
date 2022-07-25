@@ -5,11 +5,11 @@ import {
 } from '@react-navigation/native-stack';
 
 import Home from '@screens/home/Home';
-import About from '@screens/about/About';
+import Example from '@screens/example/Example';
 
 export type AppNavigationParams = {
   Home: undefined;
-  About: undefined;
+  Example: undefined;
 };
 
 const Stack = createNativeStackNavigator<AppNavigationParams>();
@@ -22,7 +22,7 @@ export const AppNavigation = () => {
         animation: 'fade_from_bottom',
       }}>
       <Stack.Screen name="Home" component={Home} />
-      <Stack.Screen name="About" component={About} />
+      <Stack.Screen name="Example" component={Example} />
     </Stack.Navigator>
   );
 };

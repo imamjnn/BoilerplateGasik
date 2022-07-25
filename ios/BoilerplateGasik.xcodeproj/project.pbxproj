@@ -38,6 +38,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BoilerplateGasik/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-BoilerplateGasik-BoilerplateGasikTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoilerplateGasik-BoilerplateGasikTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-BoilerplateGasik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateGasik.debug.xcconfig"; path = "Target Support Files/Pods-BoilerplateGasik/Pods-BoilerplateGasik.debug.xcconfig"; sourceTree = "<group>"; };
+		402FE735288E50C3004FB1DE /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-BoilerplateGasik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateGasik.release.xcconfig"; path = "Target Support Files/Pods-BoilerplateGasik/Pods-BoilerplateGasik.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-BoilerplateGasik-BoilerplateGasikTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateGasik-BoilerplateGasikTests.debug.xcconfig"; path = "Target Support Files/Pods-BoilerplateGasik-BoilerplateGasikTests/Pods-BoilerplateGasik-BoilerplateGasikTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-BoilerplateGasik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoilerplateGasik.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* BoilerplateGasik */ = {
 			isa = PBXGroup;
 			children = (
+				402FE734288E502A004FB1DE /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +106,14 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-BoilerplateGasik-BoilerplateGasikTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		402FE734288E502A004FB1DE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				402FE735288E50C3004FB1DE /* Ionicons.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
