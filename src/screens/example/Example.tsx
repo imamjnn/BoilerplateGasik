@@ -12,9 +12,10 @@ const Example = () => {
         <Button
           text="Add"
           iconRight="add-circle"
-          style={{borderRadius: 20, width: 100}}
-          type="outline"
-          size="small"
+          iconLeft="add-circle"
+          style={{borderRadius: 4, width: 140}}
+          // type="outline"
+          size="normal"
         />
       </View>
     </ScrollView>

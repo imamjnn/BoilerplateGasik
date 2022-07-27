@@ -10,6 +10,7 @@ const BUTTON_NORMAL: ViewStyle = {
   borderRadius: 4,
   marginBottom: 10,
   width: '100%',
+  elevation: 4,
 };
 
 const BUTTON_SMALL: ViewStyle = {
@@ -19,6 +20,7 @@ const BUTTON_SMALL: ViewStyle = {
   justifyContent: 'center',
   borderRadius: 4,
   marginBottom: 10,
+  elevation: 4,
 };
 
 export const buttonSize: Record<ButtonSizeName, ViewStyle> = {

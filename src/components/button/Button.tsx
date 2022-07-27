@@ -33,9 +33,16 @@ const Button = (props: ButtonProps) => {
   return (
     <View style={[viewStyles, buttonSize[size], styleOverride]}>
       <Pressable
-        style={{width: '100%', flexDirection: 'row', justifyContent: 'center'}}
+        {...rest}
+        style={{
+          width: '100%',
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: size === 'normal' ? 48 : 38,
+        }}
         android_ripple={{
-          color: colors.error,
+          color: colors.grey400,
           borderless: true,
         }}>
         {iconLeft && <Icon name={iconLeft} size={iconSize} color={textColor} />}
