@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {ScrollView, StyleSheet, View} from 'react-native';
-import {Button, Text} from '@components';
+import {Alert, ScrollView, StyleSheet, View} from 'react-native';
+import {Button, IconPress, Text} from '@components';
 import colors from '@themes/colors';
 
 const Example = () => {
@@ -18,6 +18,7 @@ const Example = () => {
           size="normal"
         />
       </View>
+      <IconPress name="arrow-back-outline" size={28} onPress={() => Alert.alert('Icon Pressed')} />
     </ScrollView>
   );
 };
