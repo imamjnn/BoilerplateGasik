@@ -20,8 +20,7 @@ const Button = (props: ButtonProps) => {
   } = props;
 
   const checkStyles = rest.disabled ? 'disable' : type;
-  const viewStyles =
-    checkStyles === 'disable' ? buttonDisable : buttonTypes[type];
+  const viewStyles = checkStyles === 'disable' ? buttonDisable : buttonTypes[type];
   const textColor = rest.disabled
     ? colors.grey600
     : type === 'outline'
@@ -47,18 +46,13 @@ const Button = (props: ButtonProps) => {
         }}>
         {iconLeft && <Icon name={iconLeft} size={iconSize} color={textColor} />}
         <Text
-          style={[
-            {color: textColor, fontSize: textSize, marginHorizontal: 8},
-            textStyleOverride,
-          ]}
+          style={[{color: textColor, fontSize: textSize, marginHorizontal: 8}, textStyleOverride]}
           weight="600"
           color={textColor}
           size={textSize}>
           {text}
         </Text>
-        {iconRight && (
-          <Icon name={iconRight} size={iconSize} color={textColor} />
-        )}
+        {iconRight && <Icon name={iconRight} size={iconSize} color={textColor} />}
       </Pressable>
     </View>
   );
